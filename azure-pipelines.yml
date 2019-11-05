@@ -44,5 +44,5 @@ steps:
 - task: Npm@1
   inputs:
     command: 'custom'
-    customCommand: 'build:prod'
+    customCommand: 'run build:prod'
   displayName: 'npm  run build:prod'
